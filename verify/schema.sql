@@ -3,5 +3,5 @@
 BEGIN;
 
 -- XXX Add verifications here.
-select 1/count(*) from information_schema.schemata where schema_name='tutorial'
+select 1/count(*) from information_schema.schemata where schema_name='tutorial';
 ROLLBACK;
