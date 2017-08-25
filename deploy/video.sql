@@ -5,7 +5,7 @@ BEGIN;
 
 -- XXX Add DDLs here.
 SET client_min_messages='warning';
-CREATE TABLE tutorial.video(
+CREATE TABLE IF NOT EXISTS tutorial.video(
 	subject TEXT	PRIMARY KEY,
 	comment TEXT,
 	timestamp TIMESTAMPTZ NOT NULL DEFAULT NOW()
